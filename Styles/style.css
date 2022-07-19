@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Poppins:ital,wght@0,400;1,300&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.navi {
+    margin-left: 200px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li {
+    list-style: none;
+    margin: 20px;
+    font-weight: 700;
+}
+nav li:hover {
+    background-color: aquamarine;
+}
+.fa-solid icon {
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexible {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 30px;
+}
+.font {
+    font-size: 3em;
+    font-weight: 800;
+}
+.photo {
+    background-image: url(image/images/Circle\ design.svg);
+    width: auto;
+}
+button {
+    border-radius: 5px;
+    background-color: purple;
+    padding: 8px;
+    font-weight: 700;
+    color: white;
+}
+.middle{
+    position: relative;
+    top: 75px;
+}
+hr {
+    border: 1px solid gainsboro;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+}
+.logo img {
+    margin:50px;
+}
+.logo-system {
+    position: relative;
+    top: 100px;
+}
+.container {
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 7px;
+    position: relative;
+    top: 100px;   
+}
+.Section-title {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    text-align: center; 
+    font-weight: 700;      
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 275px;
+}
+.product, .product-banner img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+    
+}
+.fa-solid {
+    font-size: 12px;
+}
+.filled {
+    color: rgb(250, 212, 0);
+}
+span {
+    margin: 10px;
+}
+.description {
+    font-weight: 700;
+}
+.see-more {
+    margin-left: 100px;
+    color: brown;
+    position: relative;
+    top: 30px;
+}
+.flexibles {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+.half-width2 {
+    width: 50%;
+    padding-left: 30px;
+    position: relative;
+    top: 500px;
+}
+.half-width2 img {
+    width: 350px;
+    height: 250px;
+}
+.middle2 {
+    margin-right: 400px;
+}
+.bold {
+    font-size: 2em;
+    font-weight: 700;
+}
+.footer {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    border-radius: 15px;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    top: 700px;
+  }
+  .social {
+    margin: 10px;
+  }
